@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>The Wishverse Under Adversarial Granting | Isaac Kaimfa</title>
+  <link rel="stylesheet" href="../style.css" />
+</head>
+<body>
+
+  <header class="site-header container">
+    <div class="site-title"><a href="../index.html">Isaac Kaimfa</a></div>
+    <nav class="site-nav">
+      <a href="../essays/index.html">Essays</a>
+      <a href="index.html">Papers</a>
+    </nav>
+  </header>
+
+  <main class="container">
+
+    <div class="post-header">
+      <h1 class="post-title">The Wishverse Under Adversarial Granting</h1>
+      <div class="post-meta">How Coarse Specification Breaks the Sufficiency of a Single Wish &nbsp;&nbsp; June 13, 2026</div>
+    </div>
+
+    <div class="abstract">
+      <strong>Abstract</strong>
+      A wish is informally an operator that receives a state of the world and produces a different one.
+      Modeled naively as a non-deterministic map w: S &rarr; &#119979;(S), a wish is just a binary relation,
+      and the theory reduces to abstract rewriting. We recover the missing structure by separating three
+      ingredients the naive model conflates: feasibility (what a granting agent could deliver), preference
+      (what the wisher wants), and expressibility (the language in which wishes can be phrased). The
+      residual non-determinism of the naive map is then granter discretion, resolved adversarially against
+      the preference: the formal monkey&rsquo;s paw. In this static, order-theoretic setting we first recover,
+      as reformulations, two known impossibility results from the theory of misspecified objectives: that
+      nontrivial betrayal-free specification is impossible over rich wish languages (an order-theoretic
+      counterpart of the unhackability results of Skalse et al.), and that a wish language too coarse to
+      isolate the optimum makes every expressible wish betrayable (a bounded counterpart of the
+      incomplete-proxy result of Zhuang and Hadfield-Menell). Our new contribution is sequential. We
+      introduce the wishing game, prove a single-cell reduction showing the wisher&rsquo;s only power is to
+      confine the granter to one language cell, and establish the paper&rsquo;s central result: when feasibility
+      is transitive, one wish is optimal for every utility if and only if the language is fine enough to
+      separate each state&rsquo;s successors, and otherwise multi-step wishing is strictly more valuable, by the
+      full unit-bounded margin, even though the feasibility relation is transitive. The mechanism is not
+      intransitivity of any quotient relation, but the granter&rsquo;s freedom inside a coarse cell. Betrayal and
+      the value of sequential wishing are two faces of one operator inequality. The exact gap condition is
+      settled: a sequential-value gap exists precisely when forced reachability outruns one-shot
+      securability, a reachability-game winning region decidable in polynomial time.
+    </div>
+
+    <div class="paper-actions">
+      <a href="../pdfs/wishverse_adversarial.pdf" download>Download PDF</a>
+    </div>
+
+    <iframe
+      class="pdf-viewer"
+      src="../pdfs/wishverse_adversarial.pdf"
+      title="The Wishverse Under Adversarial Granting PDF">
+      Your browser cannot display the PDF inline.
+      <a href="../pdfs/wishverse_adversarial.pdf">Download it here.</a>
+    </iframe>
+
+  </main>
+
+  <footer class="site-footer container">
+    &copy; 2026 Isaac Kaimfa
+  </footer>
+
+</body>
+</html>
