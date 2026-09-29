@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Generalized Bawo: A Finite-State Model and an EXPTIME Upper Bound | Isaac Kaimfa</title>
+  <link rel="stylesheet" href="../style.css" />
+</head>
+<body>
+
+  <header class="site-header container">
+    <div class="site-title"><a href="../index.html">Isaac Kaimfa</a></div>
+    <nav class="site-nav">
+      <a href="../notes/index.html">Notes</a>
+      <a href="index.html">Papers</a>
+    </nav>
+  </header>
+
+  <main class="container">
+
+    <div class="post-header">
+      <h1 class="post-title">Generalized Bawo: A Finite-State Model and an EXPTIME Upper Bound</h1>
+      <div class="post-meta">Preprint &nbsp;&nbsp; 2026</div>
+    </div>
+
+    <div class="abstract">
+      <strong>Abstract</strong>
+      Four-row mancala games, including Malawian Bawo and the related East African Bao, have
+      received limited attention in computational complexity theory despite their combinatorial richness.
+      This paper introduces Generalized-Bawo-Win, a finite-state two-player game model inspired by
+      Malawian Bawo. The model is parameterized by a half-board width n and a binary-encoded lap cap
+      L, and incorporates relay sowing, marker-pit capture, a formalized capture-relay rule (abstracting
+      kichwa), mandatory capture, a singleton-start prohibition, and an explicit lap-cap truncation rule
+      that guarantees move termination. We prove that Generalized-Bawo-Win belongs to EXPTIME
+      under these semantics. The proof proceeds by establishing that the game&rsquo;s state space has size at
+      most 2<sup>poly(|I|)</sup>, that legal successors can be generated in 2<sup>poly(|I|)</sup>
+      time, and that a WIN/LOSS/DRAW retrograde attractor can be computed over the resulting finite
+      game graph. We emphasize that this is an upper bound only: no hardness result is established, and
+      the theorem applies only to the formally defined generalized model. It does not classify Bao as
+      played in East Africa, whose rules differ materially.
+    </div>
+
+    <div class="paper-actions">
+      <a href="../pdfs/generalized-bawo.pdf" download>Download PDF</a>
+    </div>
+
+    <iframe
+      class="pdf-viewer"
+      src="../pdfs/generalized-bawo.pdf"
+      title="Generalized Bawo: A Finite-State Model and an EXPTIME Upper Bound PDF">
+      Your browser cannot display the PDF inline.
+      <a href="../pdfs/generalized-bawo.pdf">Download it here.</a>
+    </iframe>
+
+  </main>
+
+  <footer class="site-footer container">
+    &copy; 2026 Isaac Kaimfa &nbsp;&middot;&nbsp; <a href="mailto:isaackaimfa55@gmail.com">isaackaimfa55@gmail.com</a>
+  </footer>
+
+</body>
+</html>
