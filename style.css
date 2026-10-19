@@ -171,6 +171,24 @@ blockquote {
 .post-body { font-size: 1rem; }
 .post-body p { margin-bottom: 1.3rem; }
 
+/* ---- post image ---- */
+.post-image {
+  margin: 0 0 2rem;
+}
+
+.post-image img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border: 1px solid #ddd;
+}
+
+.post-image figcaption {
+  font-size: 0.8rem;
+  color: #555;
+  margin-top: 0.5rem;
+}
+
 /* ---- abstract box (papers) ---- */
 .abstract {
   background: #f5f5f5;
