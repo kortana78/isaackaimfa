@@ -118,6 +118,29 @@ blockquote {
   letter-spacing: 0.04em;
 }
 
+.entry-list li.has-thumb {
+  display: flex;
+  gap: 1.2rem;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.entry-list .entry-text {
+  flex: 1 1 auto;
+}
+
+.entry-list .entry-thumb {
+  flex: 0 0 120px;
+}
+
+.entry-list .entry-thumb img {
+  display: block;
+  width: 120px;
+  height: 72px;
+  object-fit: cover;
+  border: 1px solid #ddd;
+}
+
 .entry-list .entry-abstract {
   font-size: 0.95rem;
   margin-top: 0.5rem;
